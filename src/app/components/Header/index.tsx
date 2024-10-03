@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../Navbar'
-import logo from '@/assets/jdg.png'
+import logo from 'public/logo.png'
 import NavbarMobile from '../NavbarMobile'
 import { useToggle } from '@/hooks/useToggle'
 import { usePathname } from 'next/navigation'
@@ -15,11 +15,11 @@ const Header = () => {
   return (
     <header className="container flex h-20 w-full items-center justify-between bg-primary transition-all">
       <Link href="/" className="flex" data-testid="logo-link">
-        <figure className="flex h-10 w-10 items-center justify-center rounded-md bg-secondary">
+        <figure className="flex h-48 w-48 items-center justify-center rounded-md py-2">
           <Image
             src={logo}
             alt="logo"
-            className="h-full w-full object-cover p-1"
+            className="transparent h-full w-full py-1"
           />
         </figure>
       </Link>
