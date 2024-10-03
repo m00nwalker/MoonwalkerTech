@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer
       id="contact"
-      className="bg-gradient-footer flex w-full items-center justify-center bg-primary pt-20"
+      className="flex w-full items-center justify-center bg-primary pt-20"
     >
       <FooterContainer>
         <section className="flex w-full flex-wrap items-center justify-between md:items-start">
